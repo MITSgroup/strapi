@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   upload: {
     config: {
       provider: "strapi-provider-upload-dos",
@@ -10,4 +10,4 @@ module.exports = {
       },
     },
   },
-};
+});
