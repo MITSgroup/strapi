@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_list_with_values",
+  "info": {
+    "displayName": "ListWithValue",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

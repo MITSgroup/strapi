@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.hero",
+      "required": true
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.intro"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "apartment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.apartment"
+    },
+    "locationName": {
+      "type": "string"
+    },
+    "locationUrl": {
+      "type": "uid",
+      "targetField": "locationName"
+    },
+    "description": {
+      "type": "text"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.location"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.about"
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.specs"
+    },
+    "advantages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.advantages"
+    },
+    "returnOnInvestment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.return-on-investment"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    }
+  }
+}

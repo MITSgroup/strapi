@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_block_post_intros",
+  "info": {
+    "displayName": "PostIntro",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "textFirstColumn": {
+      "type": "text"
+    },
+    "textSecondColumn": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_intros",
+  "info": {
+    "displayName": "Intro",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "textFirstColumn": {
+      "type": "text"
+    },
+    "textSecondColumn": {
+      "type": "text"
+    }
+  }
+}

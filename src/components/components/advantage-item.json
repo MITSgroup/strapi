@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_advantage_items",
+  "info": {
+    "displayName": "AdvantageItem",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_table_rows",
+  "info": {
+    "displayName": "tableRow",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "firstValue": {
+      "type": "string"
+    },
+    "secondValue": {
+      "type": "string"
+    },
+    "thirdValue": {
+      "type": "string"
+    }
+  }
+}

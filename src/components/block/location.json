@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_block_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "location-arrow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "advantages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    }
+  }
+}

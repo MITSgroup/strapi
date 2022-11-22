@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_advantages",
+  "info": {
+    "displayName": "advantages",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "advantage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.advantage-item"
+    }
+  }
+}

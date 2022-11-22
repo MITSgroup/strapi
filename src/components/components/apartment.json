@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_components_apartments",
+  "info": {
+    "displayName": "apartment",
+    "icon": "bed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "bedroomsCount": {
+      "type": "integer"
+    },
+    "advantages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    },
+    "layout": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list-with-value"
+    },
+    "specsTotal": {
+      "type": "decimal"
+    }
+  }
+}

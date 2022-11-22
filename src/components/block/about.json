@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_block_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "titleFirstColumn": {
+      "type": "string"
+    },
+    "paragraphFirstColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.paragraphs"
+    },
+    "imageFirstColumn": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "titleSecondColumn": {
+      "type": "string"
+    },
+    "paragraphSecondColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.paragraphs"
+    },
+    "imageSecondColumn": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

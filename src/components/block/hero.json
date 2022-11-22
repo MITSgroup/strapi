@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_block_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "store",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "projectType": {
+      "type": "string",
+      "required": false
+    },
+    "projectLeft": {
+      "type": "integer",
+      "required": false
+    },
+    "startingPrice": {
+      "type": "string",
+      "required": false
+    },
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_return_on_investment",
+  "info": {
+    "displayName": "returnOnInvestment ",
+    "icon": "percent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "apartmentName": {
+      "type": "string",
+      "required": true
+    },
+    "apartmentPrice": {
+      "type": "string",
+      "required": true
+    },
+    "rows": {
+      "displayName": "tableRow",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.table-row"
+    }
+  }
+}

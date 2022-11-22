@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_block_specs",
+  "info": {
+    "displayName": "specs",
+    "icon": "check-double"
+  },
+  "options": {},
+  "attributes": {
+    "generalLayout": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.list"
+    }
+  }
+}
