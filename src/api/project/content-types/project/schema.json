@@ -93,6 +93,13 @@
     },
     "locationUrl": {
       "type": "string"
+    },
+    "ctaImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
