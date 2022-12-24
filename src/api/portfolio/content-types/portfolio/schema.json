@@ -39,9 +39,6 @@
     "locationName": {
       "type": "string"
     },
-    "locationUrl": {
-      "type": "string"
-    },
     "gallery": {
       "type": "media",
       "multiple": true,

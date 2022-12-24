@@ -91,15 +91,13 @@
       "component": "shared.seo",
       "required": true
     },
-    "locationUrl": {
-      "type": "string"
-    },
-    "ctaImage": {
+    "formImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
