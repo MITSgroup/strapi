@@ -14,11 +14,14 @@
     "@strapi/plugin-seo": "^1.7.6",
     "@strapi/plugin-users-permissions": "4.4.5",
     "@strapi/strapi": "4.4.5",
+    "@webvibe-io/strapi-plugin-instagram": "^1.0.1",
     "better-sqlite3": "7.4.6",
     "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
+    "strapi-plugin-react-editorjs": "^2.0.2",
     "strapi-plugin-rest-cache": "^4.2.4",
     "strapi-plugin-sitemap": "^2.0.8",
+    "strapi-plugin-slugify": "^2.3.2",
     "strapi-provider-rest-cache-memory": "^4.2.4",
     "strapi-provider-upload-dos": "^4.0.5"
   },
@@ -29,7 +32,7 @@
     "uuid": "a0bb5dfa-5942-49a7-a6f9-263be4da85e8"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=14.19.1 <=17.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
