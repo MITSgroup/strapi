@@ -1864,7 +1864,7 @@
     "@strapi/utils" "4.4.5"
     "fs-extra" "10.0.0"
 
-"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.0.5", "@strapi/strapi@^4.0.7", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.4.5":
+"@strapi/strapi@^4.0.0", "@strapi/strapi@^4.0.5", "@strapi/strapi@^4.3.4", "@strapi/strapi@4.4.5":
   "integrity" "sha512-2mEEOPBq7xBfCN1NZF/OAEQqY18eDxQ9NwcRfz460rbg+XK3cgzO2Wjx4hla97E/UCXHRHRIELtnEwtSCfotJg=="
   "resolved" "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.4.5.tgz"
   "version" "4.4.5"
@@ -1935,7 +1935,7 @@
     "prettier" "2.7.1"
     "typescript" "4.6.2"
 
-"@strapi/utils@^4.0.7", "@strapi/utils@4.4.5":
+"@strapi/utils@4.4.5":
   "integrity" "sha512-JloHkrDJgn0ddIwI3HSMFxgDe/fD6m+khq8XIrN8ixOxJSYS5jlWysGQleSdbjzp4s3ADHIL+ovAeBuIiwd3Rw=="
   "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.4.5.tgz"
   "version" "4.4.5"
@@ -9719,13 +9719,6 @@
     "redux-thunk" "^2.3.0"
     "sitemap" "^7.1.0"
     "xml2js" "^0.4.23"
-
-"strapi-plugin-slugify@^2.3.1":
-  "integrity" "sha512-l8ZrU+ZTxIX+p6AIdOl4fWQICkEdro8w0W9up4KqdlkJhO2F7yJ3DNSuzPQ/7lXobwjSqc71vd7NBP+js3YqZg=="
-  "resolved" "https://registry.npmjs.org/strapi-plugin-slugify/-/strapi-plugin-slugify-2.3.1.tgz"
-  "version" "2.3.1"
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
 
 "strapi-provider-rest-cache-memory@^4.2.4":
   "integrity" "sha512-W8mkl5chvLMj4wfcle7U2CzwdEBN4TkJTQzRWkK7hQSLpACQ438yZsULkUFdxFjymN+FC9k34A5ET9tOce8Q1A=="
