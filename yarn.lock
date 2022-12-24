@@ -9927,11 +9927,6 @@
   "resolved" "https://registry.npmjs.org/std-env/-/std-env-3.3.0.tgz"
   "version" "3.3.0"
 
-"strapi-plugin-populate-deep@^1.1.2":
-  "integrity" "sha512-fKw1BMRpdWbi1D+E0Yq08lZFxrTHgdPQ2P5jKEuXEE5YHvHiepSHVQtymDJGQ3WRWierem8ZBpnz2nl6iRx8Gw=="
-  "resolved" "https://registry.npmjs.org/strapi-plugin-populate-deep/-/strapi-plugin-populate-deep-1.1.2.tgz"
-  "version" "1.1.2"
-
 "strapi-plugin-react-editorjs@^2.0.2":
   "integrity" "sha512-qjKtKwtiY7JYjAfw9NQntWokXduyJC+IERPKfuZ+p6I329xnCtV3ZctreItYrakcFcidvFBfyMaKwLRsbxutmw=="
   "resolved" "https://registry.npmjs.org/strapi-plugin-react-editorjs/-/strapi-plugin-react-editorjs-2.0.2.tgz"
