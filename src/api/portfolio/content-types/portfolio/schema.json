@@ -28,6 +28,9 @@
         "images"
       ]
     },
+    "gridLg": {
+      "type": "string"
+    },
     "description": {
       "type": "text"
     },
