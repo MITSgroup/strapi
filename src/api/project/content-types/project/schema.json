@@ -49,9 +49,6 @@
         "images"
       ]
     },
-    "gridLg": {
-      "type": "string"
-    },
     "apartment": {
       "type": "component",
       "repeatable": true,
