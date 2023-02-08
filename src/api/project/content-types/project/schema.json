@@ -49,6 +49,14 @@
         "images"
       ]
     },
+    "thumbnailHome": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "gridLg": {
       "type": "string"
     },
