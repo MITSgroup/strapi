@@ -112,6 +112,10 @@
     },
     "locationLink": {
       "type": "string"
+    },
+    "position": {
+      "type": "integer",
+      "required": true
     }
   }
 }
