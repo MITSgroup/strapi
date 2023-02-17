@@ -91,6 +91,11 @@
       "repeatable": false,
       "component": "block.advantages"
     },
+    "models": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.models"
+    },
     "returnOnInvestment": {
       "type": "component",
       "repeatable": true,

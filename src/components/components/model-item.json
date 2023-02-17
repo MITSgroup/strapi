@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_model_items",
+  "info": {
+    "displayName": "ModelItem",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_models",
+  "info": {
+    "displayName": "models",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "model": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.model-item"
+    }
+  }
+}
