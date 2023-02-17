@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "value": {
-      "type": "string",
+      "type": "richtext",
       "required": true
     }
   }
