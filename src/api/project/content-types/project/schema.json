@@ -10,11 +10,20 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
       "type": "uid",
@@ -26,12 +35,22 @@
       "type": "component",
       "repeatable": false,
       "component": "block.hero",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "intro": {
       "type": "component",
       "repeatable": false,
-      "component": "block.intro"
+      "component": "block.intro",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "gallery": {
       "type": "media",
@@ -39,7 +58,12 @@
       "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "thumbnail": {
       "type": "media",
@@ -47,7 +71,12 @@
       "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "thumbnailHome": {
       "type": "media",
@@ -55,57 +84,117 @@
       "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "gridLg": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "apartment": {
       "type": "component",
       "repeatable": true,
-      "component": "components.apartment"
+      "component": "components.apartment",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "locationName": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "location": {
       "type": "component",
       "repeatable": false,
-      "component": "block.location"
+      "component": "block.location",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "about": {
       "type": "component",
       "repeatable": false,
-      "component": "block.about"
+      "component": "block.about",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "specs": {
       "type": "component",
       "repeatable": false,
-      "component": "block.specs"
+      "component": "block.specs",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "advantages": {
       "type": "component",
       "repeatable": false,
-      "component": "block.advantages"
+      "component": "block.advantages",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "models": {
       "type": "component",
       "repeatable": false,
-      "component": "block.models"
+      "component": "block.models",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "returnOnInvestment": {
       "type": "component",
       "repeatable": true,
-      "component": "components.return-on-investment"
+      "component": "components.return-on-investment",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "seo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "formImage": {
       "type": "media",
@@ -113,14 +202,29 @@
       "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "locationLink": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "position": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
