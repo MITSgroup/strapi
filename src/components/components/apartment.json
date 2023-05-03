@@ -12,7 +12,7 @@
       "required": true
     },
     "bedroomsCount": {
-      "type": "integer"
+      "type": "string"
     },
     "advantages": {
       "type": "component",

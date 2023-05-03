@@ -16,7 +16,7 @@
       "required": false
     },
     "projectLeft": {
-      "type": "integer",
+      "type": "string",
       "required": false
     },
     "startingPrice": {
