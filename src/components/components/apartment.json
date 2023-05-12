@@ -7,6 +7,9 @@
   },
   "options": {},
   "attributes": {
+    "sold": {
+      "type": "boolean"
+    },
     "price": {
       "type": "string",
       "required": true
