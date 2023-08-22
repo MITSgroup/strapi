@@ -1,7 +1,7 @@
 {
   "collectionName": "components_components_return_on_investment",
   "info": {
-    "displayName": "returnOnInvestment ",
+    "displayName": "returnOnInvestment",
     "icon": "percent",
     "description": ""
   },
@@ -20,6 +20,9 @@
       "type": "component",
       "repeatable": true,
       "component": "components.table-row"
+    },
+    "sold": {
+      "type": "boolean"
     }
   }
 }
